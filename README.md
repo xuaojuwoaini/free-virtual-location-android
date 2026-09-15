@@ -18,10 +18,24 @@
 
 ## 下载安装
 
+### 国内可直接下载（GitHub 打不开时用这两个）
+
+| 加速源 | 下载地址 |
+| --- | --- |
+| jsDelivr CDN（最快） | https://cdn.jsdelivr.net/gh/xuaojuwoaini/free-virtual-location-android@main/dist/MockLocation-1.5.apk |
+| ghproxy 加速 | https://ghproxy.net/https://github.com/xuaojuwoaini/free-virtual-location-android/releases/download/v1.5/MockLocation-1.5.apk |
+
+### 官方地址
+
 | 方式 | 说明 |
 | --- | --- |
-| 直接下载 | [dist/MockLocation-1.5.apk](dist/MockLocation-1.5.apk)（294 KB） |
-| Releases | 见本仓库 Releases 页面 |
+| 直链 | [dist/MockLocation-1.5.apk](dist/MockLocation-1.5.apk) |
+| Releases | 见本仓库 [Releases](https://github.com/xuaojuwoaini/free-virtual-location-android/releases) 页面 |
+
+**文件信息**：`MockLocation-1.5.apk`，301,534 字节
+**SHA-256**：`94D85452F76618CA3C5E7099666CCE47A83CE3A666F91849F645E34219F5FFEF`
+
+> 下载后可用上面的 SHA-256 校验文件完整性；小米/华为等机型安装"未知来源应用"时按提示允许即可。
 
 > 注意：`dist/` 里的 APK 使用开发者签名；如果你自己重新构建，会生成新的签名，
 > 两者不能互相覆盖安装（需要先卸载旧版本）。建议二选一：直接用 dist 里的，或自己构建后一直用它。
